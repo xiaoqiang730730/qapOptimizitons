@@ -1,0 +1,43 @@
+$defaultColor: #5f646c;
+$darkColor: #3d4145;
+$blueColor: #3089dc;
+$whiteColor: #ffffff;
+$globalBg: #F2F3F7; // 全局背景
+$globalSpliceLine: #DCDEE3; // 全局分割线和边框
+// 白色
+whiteBg{
+    backgroundColor: #ffffff;
+}
+
+// 背景#eeeeee
+lightGreyBg2{
+    backgroundColor: #F2F3F7;
+}
+
+lightGreyBg3{
+    backgroundColor: #F2F3F7;
+}
+lightGreyBg4 {
+    backgroundColor: #F2F3F7;
+}
+
+activeGreyBg{
+    backgroundColor: #d9d9d9;
+}
+
+//橙色
+orangeBg {
+    backgroundColor: #ff6600;
+}
+orangeRedBg {
+    backgroundColor: #fb4a21;
+}
+//蓝色
+blueBg {
+    backgroundColor: $blueColor;
+}
+
+// 淡灰色
+lightGreyBg {
+    backgroundColor: #F2F3F7;
+}

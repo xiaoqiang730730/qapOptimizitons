@@ -1,0 +1,6 @@
+@import '../styles/common.rxscss';
+
+
+h400{
+    height: 20rem
+}

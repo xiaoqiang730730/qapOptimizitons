@@ -1,0 +1,34 @@
+{
+  "name": "qapsizedemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "before": "webpack",
+    "build": "webpack --config webpack.config2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoqiang730730/qapSizeDemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaoqiang730730/qapSizeDemo/issues"
+  },
+  "homepage": "https://github.com/xiaoqiang730730/qapSizeDemo#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-rxscss": "^0.0.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-types": "^6.26.0",
+    "html-webpack-plugin": "^3.0.6",
+    "node-sass": "^4.7.2",
+    "rx-css-loader": "^0.1.13",
+    "rx-export": "^0.0.1",
+    "sass-loader": "^6.0.7",
+    "webpack": "^3.11.0"
+  }
+}
