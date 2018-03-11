@@ -22,7 +22,13 @@
 
 index.html 和 index2.html 打开效果都一样。
 
-这只是简单的demo，并不是真正能减少一半体积。
+这只是简单的demo，并不是真正能减少一半体积。只打包了每个页面使用到的apiList，这样就不会重复打包冗余的了。
+
+在这个例子中apiList有10k，在优化之前版本里apiList全部打包进去了，优化之后只打包了apiList里面的`A0`，极大的减少了体积。
+
+在实际项目里面有超过80个chunk，在优化之前[每个chunk都会打包apiList](https://weex.apache.org/cn/wiki/platform-difference.html#mei-you-history-location-navigator-dui-xiang)，有人会说用`CommonsChunkPlugin`抽离公共的js，但是现在weex还不支持一个页面多个js机制，所以就会出现80*30（实际项目里面apiList能用30k）重复了很多。
+
+现在优化后差不多80*1 (只打包页面所需的apiList), 极大的减少了体积。最终优化后能够减少`25%`左右。
 
 # 原理
 
