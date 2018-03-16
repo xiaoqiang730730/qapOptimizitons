@@ -2,19 +2,19 @@
 
 先`npm i`所有的依赖
 
-# 问题
+## 问题
 
 [qap](http://open.taobao.com/docs/doc.htm?spm=a219a.7629140.0.0.Stgo7V&treeId=260&articleId=105545&docType=1)不支持多文件机制，也就是说每个页面只能有一个js文件，而我们的apiList是每个页面的api集合。对于单个页面而且，apiList就冗余了。
 
-# 优化之前
+## 优化之前
 
 `npm run before`
 
-# 优化之后
+## 优化之后
 
 `npm run build`
 
-# 查看优化后效果
+## 查看优化后效果
 
 ![](image/size.png)
 
@@ -30,6 +30,14 @@ index.html 和 index2.html 打开效果都一样。
 
 现在优化后差不多80*1 (只打包页面所需的apiList), 极大的减少了体积。最终优化后能够减少`25%`左右。
 
-# 原理
+## 原理
 
 利用babel插件**提前**将apiList里面的值处理到每个api请求里面。[具体查看这里](/transAPI)。
+
+# qap实践系列
+
+1. [qap-包大小优化](http://xiaoqiang730730.github.io/2018/03/10/qap-%E5%8C%85%E5%A4%A7%E5%B0%8F%E4%BC%98%E5%8C%96/)
+
+2. [qap-统一入口](http://xiaoqiang730730.github.io/2018/03/14/qap%E6%9C%80%E4%BD%B3%E5%AE%9E%E6%88%98_%E7%BB%9F%E4%B8%80%E5%85%A5%E5%8F%A3)
+
+3. [qap-图表](http://xiaoqiang730730.github.io/2018/03/16/qap%E6%9C%80%E4%BD%B3%E5%AE%9E%E6%88%98_%E5%9B%BE%E8%A1%A8)
