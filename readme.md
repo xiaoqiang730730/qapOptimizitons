@@ -1,3 +1,10 @@
+# qap实践系列
+
+1. [qap-包大小优化](http://xiaoqiang730730.github.io/2018/03/10/qap-%E5%8C%85%E5%A4%A7%E5%B0%8F%E4%BC%98%E5%8C%96/)
+2. [qap-统一入口](http://xiaoqiang730730.github.io/2018/03/14/qap%E6%9C%80%E4%BD%B3%E5%AE%9E%E6%88%98_%E7%BB%9F%E4%B8%80%E5%85%A5%E5%8F%A3)
+3. [qap-图表](http://xiaoqiang730730.github.io/2018/03/16/qap%E6%9C%80%E4%BD%B3%E5%AE%9E%E6%88%98_%E5%9B%BE%E8%A1%A8)
+
+
 # qap包大小优化demo
 
 先`npm i`所有的依赖
@@ -33,11 +40,3 @@ index.html 和 index2.html 打开效果都一样。
 ## 原理
 
 利用babel插件**提前**将apiList里面的值处理到每个api请求里面。[具体查看这里](/transAPI)。
-
-# qap实践系列
-
-1. [qap-包大小优化](http://xiaoqiang730730.github.io/2018/03/10/qap-%E5%8C%85%E5%A4%A7%E5%B0%8F%E4%BC%98%E5%8C%96/)
-
-2. [qap-统一入口](http://xiaoqiang730730.github.io/2018/03/14/qap%E6%9C%80%E4%BD%B3%E5%AE%9E%E6%88%98_%E7%BB%9F%E4%B8%80%E5%85%A5%E5%8F%A3)
-
-3. [qap-图表](http://xiaoqiang730730.github.io/2018/03/16/qap%E6%9C%80%E4%BD%B3%E5%AE%9E%E6%88%98_%E5%9B%BE%E8%A1%A8)
