@@ -5,6 +5,13 @@
 3. [qap-图表](http://xiaoqiang730730.github.io/2018/03/16/qap%E6%9C%80%E4%BD%B3%E5%AE%9E%E6%88%98_%E5%9B%BE%E8%A1%A8)
 4. [qap-跨页面需求](http://xiaoqiang730730.github.io/2018/03/18/qap最佳实战_跨页面需求)
 
+todo
+
+> qap-动态代码（1. qap页面能不能有多个js呢？2. 加载远端js，动态执行js）
+
+> qap-工程最佳实践（如何优雅的写业务页面？如何兼容多个版本？千牛api改变，如何做到影响最小化？）
+
+
 # qap包大小优化demo
 
 先`npm i`所有的依赖
