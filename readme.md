@@ -4,10 +4,11 @@
 2. [qap-统一入口](http://xiaoqiang730730.github.io/2018/03/14/qap%E6%9C%80%E4%BD%B3%E5%AE%9E%E6%88%98_%E7%BB%9F%E4%B8%80%E5%85%A5%E5%8F%A3)
 3. [qap-图表](http://xiaoqiang730730.github.io/2018/03/16/qap%E6%9C%80%E4%BD%B3%E5%AE%9E%E6%88%98_%E5%9B%BE%E8%A1%A8)
 4. [qap-跨页面需求](http://xiaoqiang730730.github.io/2018/03/18/qap最佳实战_跨页面需求)
+5. [qap-动态代码](http://xiaoqiang730730.github.io/2018/03/19/qap%E6%9C%80%E4%BD%B3%E5%AE%9E%E6%88%98_%E5%8A%A8%E6%80%81%E4%BB%A3%E7%A0%81/)
 
 todo
 
-> qap-动态代码（1. qap页面能不能有多个js呢？2. 加载远端js，动态执行js）
+> ~~qap-动态代码（1. qap页面能不能有多个js呢？2. 加载远端js，动态执行js）~~
 
 > qap-工程最佳实践（如何优雅的写业务页面？如何兼容多个版本？千牛api改变，如何做到影响最小化？）
 
